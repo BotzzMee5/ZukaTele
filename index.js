@@ -108,24 +108,6 @@ module.exports = alpha = async (alpha, bot) => {
                 reply(`My lord [${OWNER_NAME}](${OWNER[0]}) 👑`)
             }
             break
-            case 'sc':
-            case 'script':
-            case 'scrip': {
-                alpha.reply("Source code this bot", {
-                    reply_markup: {
-                        inline_keyboard: [
-                            [{
-                                text: 'Github',
-                                url: "https://github.com/zeeoneofficial/telebot"
-                            }, {
-                                text: 'YouTube',
-                                url: "https://www.youtube.com/@zeeoneofc"
-                            }]
-                        ]
-                    }
-                })
-            }
-            break
             case "privacy":
             case "snk": {
                 reply(lang.snk)
